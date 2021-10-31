@@ -1,3 +1,4 @@
+import fetch from "cross-fetch";
 import type { ServerRequest } from "@sveltejs/kit/types/endpoint";
 import type { Auth } from "../auth";
 import { ucFirst } from "../helpers";
